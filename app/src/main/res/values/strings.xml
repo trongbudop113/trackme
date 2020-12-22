@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">TrackMe</string>
     <string name="title_activity_tracking">Map</string>
+
+    //Dialog
+    <string name="permission_denied">Permission Denied.</string>
+    <string name="permission_warning">Without those permission the app is unable to save your profile. Are you sure you want to deny this permission?</string>
+    <string name="unable_permission">Unable to open %s. Go to Setting > Permission, then allow the following permission and try again.</string>
+    <string name="sure">I\'M SURE</string>
+    <string name="retry">RE-TRY</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
 </resources>
