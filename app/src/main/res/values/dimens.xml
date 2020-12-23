@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="margin_layout">15dp</dimen>
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="text_size_15sp">15sp</dimen>
+</resources>

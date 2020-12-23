@@ -9,6 +9,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:id="@+id/recyclerViewTracking"
         app:layout_constraintBottom_toTopOf="@+id/btnRecord"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="1dp" />
@@ -28,4 +29,9 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include layout="@layout/progress_dialog"
+        android:id="@+id/progress_main"
+        android:visibility="invisible" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
