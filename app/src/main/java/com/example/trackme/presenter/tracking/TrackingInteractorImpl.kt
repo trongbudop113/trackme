@@ -1,8 +1,9 @@
-package com.example.trackme.presenter
+package com.example.trackme.presenter.tracking
 
 import android.annotation.SuppressLint
 import android.content.Context
 import com.example.trackme.database.ProjectDatabase
+import com.example.trackme.presenter.tracking.TrackingInteractor
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 

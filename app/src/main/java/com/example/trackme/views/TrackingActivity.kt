@@ -27,6 +27,7 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
+import kotlinx.android.synthetic.main.activity_tracking.*
 
 
 class TrackingActivity : AppCompatActivity(), OnMapReadyCallback {
@@ -42,8 +43,25 @@ class TrackingActivity : AppCompatActivity(), OnMapReadyCallback {
         val mapFragment = supportFragmentManager.findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
 
+        setListener()
+
         checkRunTimePermission()
     }
+
+    private fun setListener() {
+        btnPause.setOnClickListener {
+
+        }
+
+        btnFresh.setOnClickListener {
+
+        }
+
+        btnStop.setOnClickListener {
+
+        }
+    }
+
 
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap

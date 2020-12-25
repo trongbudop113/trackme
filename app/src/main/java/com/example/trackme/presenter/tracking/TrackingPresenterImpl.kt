@@ -1,7 +1,9 @@
-package com.example.trackme.presenter
+package com.example.trackme.presenter.tracking
 
 import android.content.Context
 import com.example.trackme.model.Tracks
+import com.example.trackme.presenter.tracking.TrackingInteractor
+import com.example.trackme.presenter.tracking.TrackingInteractorImpl
 
 class TrackingPresenterImpl(mGetDataView : TrackingInteractor.View) : TrackingInteractor.Presenter, TrackingInteractor.onGetDataListener{
 

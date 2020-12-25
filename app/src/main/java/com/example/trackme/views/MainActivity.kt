@@ -9,8 +9,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.trackme.R
 import com.example.trackme.adapter.TrackingAdapter
 import com.example.trackme.model.Tracks
-import com.example.trackme.presenter.TrackingInteractor
-import com.example.trackme.presenter.TrackingPresenterImpl
+import com.example.trackme.presenter.tracking.TrackingInteractor
+import com.example.trackme.presenter.tracking.TrackingPresenterImpl
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), TrackingInteractor.View, TrackingAdapter.OnItemSelected {
