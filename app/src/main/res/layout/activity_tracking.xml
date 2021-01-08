@@ -88,14 +88,16 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/txtTimeNumber"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="01:00:00"
-                        android:textAlignment="center"
+
+                    <Chronometer
+                        android:id="@+id/timeCount"
                         android:textColor="@android:color/black"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:format="hh:mm:ss"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
 
                 </LinearLayout>
             </LinearLayout>
